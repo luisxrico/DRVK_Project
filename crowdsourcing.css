@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #0073e6;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #fff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #444;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="file"]:focus,
+textarea:focus {
+    border-color: #0073e6;
+}
+
+input[type="submit"] {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0059b3;
+}
+
+/* Adjust the file input appearance */
+input[type="file"] {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #444;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+    background: #0073e6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="file"]::-webkit-file-upload-button:hover {
+    background: #0059b3;
+}
