@@ -1,7 +1,7 @@
 // Retrieve a random post from the post database to highlight
 // Takes no arguments and returns void
 function display_featured_post() {
-    // Query a random post
+    // Query arguments: select 1 random post
     $args = array(
         'posts_per_page' => 1,
         'orderby' => 'rand',
