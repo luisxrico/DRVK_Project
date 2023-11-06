@@ -1,0 +1,142 @@
+body,
+button,
+input,
+select,
+textarea {
+    color: #4c4c4c;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: 'EB Garamond', serif;
+}
+
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: 400;
+    font-family: 'EB Garamond', serif;
+    line-height: 1.5;
+}
+
+blockquote {
+    font-style: italic;
+    font-family: 'EB Garamond', serif;
+  
+}
+
+pre {
+    background: #eee;
+    font-family: 'EB Garamond', serif;
+    font-size: 15px;
+}
+
+menu {
+    font-size: larger;
+}
+
+.main-navigation .menu ul.menu-desktop > li > a {
+    font-size: 20px;
+}
+
+.entry-footer {
+    display: none;
+  }
+  
+  .footer-widget-area .widget_text {
+      text-align: center;
+          color: white;
+          font-size: 18px;
+  }
+  
+  .footer-widget-area{
+          background: #060e38;
+          padding: 0;
+  }
+  
+  
+  .footer-bottom{
+      display: none;
+  }
+
+  mark {
+    background: #060e38;
+    color: #000;
+}
+
+.main-navigation .sub-menu > li:hover > a,
+    .main-navigation .sub-menu > li:focus > a {
+        background: #060e38;
+        color: #fff;
+    }
+
+.secondary-bgcolor,
+.main-navigation .popular-post a,
+.widget.education_x_widget_tabbed .nav-tabs > li.active > a,
+.widget.education_x_widget_tabbed .nav-tabs > li.active > a:focus,
+.widget.education_x_widget_tabbed .nav-tabs > li.active > a:hover
+.top-bar .social-icons ul li:hover a:after,
+.top-bar .social-icons ul li:focus a:after {
+    background: #060e38;
+    color: #fff;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+body .btn-primary,
+.mouse-icon .wheel,
+.top-bar,
+.main-navigation .menu > ul.menu-desktop > li.current-menu-item > a:after,
+.main-navigation .menu > ul.menu-desktop > li:hover > a:after,
+.main-navigation .menu > ul.menu-desktop > li:focus > a:after {
+    background: #060e38;
+    color: #fff;
+}
+
+body .btn-primary:hover,
+body .btn-primary:focus,
+button:hover,
+button:focus,
+button:active,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="button"]:active,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="reset"]:active,
+input[type="submit"]:hover,
+input[type="submit"]:active,
+input[type="submit"]:focus {
+    background: #060e38;
+}
+
+body .btn-border:hover,
+body .btn-border:focus {
+    border-color: #060e38;
+    color: #060e38;
+}
+
+a:hover, a:focus, a:active {
+    color: #060e38;
+}
+
+body .btn-border:hover,
+body .btn-border:focus {
+    border-color: #060e38;
+    color: #060e38;
+}
+
+.loader-2 {
+    top: 35px;
+    left: 25px;
+    position: absolute;
+    -webkit-animation: roundL 3s linear infinite;
+    animation: roundL 3s linear infinite;
+    color: #060e38;
+}
+
+.header-links .link-list .link-icon,
+.top-bar .social-icons ul li a:after,
+.top-bar .social-icons ul li:first-child a:after {
+    border-color: #060e38;
+}
